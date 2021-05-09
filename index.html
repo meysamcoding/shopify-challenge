@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>The Shoppies</h1>
+        <div class="col-md-12">
+            <div class="card p-4 ">
+                <h3 class="heading text-left">Movie title</h3>
+                <form class="justify-content-left  px-5" id="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <input type="text" id="search-bar" class="search-bar" placeholder="Search..." name="">
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" >
+            <div class="col-5" id="movie-add">
+                <h3 id="result">  </h3>
+                <ul id="list-movie"> 
+                <!-- <li id="li-movie1"> <button >Nomiante</button></li>
+                <li id="li-movie2"> <button></button></li>
+                <li id="li-movie2"> <button></button></li> -->
+                </ul>
+
+            </div>
+            <div class="col-2"> </div>
+            <div class="col-5" id="movie-nomi">
+                <h1>Nominations</h1>
+                <div>
+                    <div>
+                        <ul id="list-naminated">
+                             
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+        </div>
+        
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
