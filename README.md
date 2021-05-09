@@ -1,1 +1,1 @@
-# shopify-challeng
+# shopify-challenge
